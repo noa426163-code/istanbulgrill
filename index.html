@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Istanbul Grill Créteil — découvrez notre carte de sandwiches, grillades et spécialités turques.">
+<title>Istanbul Grill Créteil</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--dark:#171715;--gold:#d9ad59;--cream:#f7f3eb;--paper:#fffdf8;--red:#a83a2d;--muted:#77736b;--line:#e9e1d4}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--dark);font-family:"DM Sans",sans-serif}a{color:inherit;text-decoration:none}
+.top{background:#111;color:#f8f0e1;text-align:center;padding:9px;font-size:11px;letter-spacing:.15em;text-transform:uppercase}
+header{position:sticky;top:0;z-index:5;background:#171715f5;color:#fff;border-bottom:1px solid #39362f}.nav{max-width:1160px;margin:auto;padding:14px 22px;display:flex;justify-content:space-between;align-items:center;gap:15px}
+.brand{display:flex;align-items:center;gap:10px}.mark{width:40px;height:40px;border:1px solid var(--gold);border-radius:50%;display:grid;place-items:center;color:var(--gold);font-family:Georgia;font-size:19px}.brand b{font:800 18px Georgia;letter-spacing:.04em}.brand small{display:block;color:var(--gold);font:700 9px "DM Sans";letter-spacing:.28em;margin-top:3px}
+.links{display:flex;gap:24px;font-size:13px}.links a:hover{color:var(--gold)}.goldbtn{background:var(--gold);color:#171715;padding:12px 17px;font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+.hero{background:var(--dark);color:white;display:grid;grid-template-columns:1fr 1fr;min-height:490px}.hero-copy{max-width:590px;margin:auto;padding:65px 35px}.eyebrow{color:var(--gold);font-size:11px;font-weight:800;letter-spacing:.22em;text-transform:uppercase}
+h1,h2,h3{font-family:"Playfair Display",Georgia,serif}h1{font-size:clamp(42px,5.6vw,70px);line-height:1.02;margin:17px 0}h1 span{color:var(--gold)}.hero p{color:#d2ccc1;line-height:1.8;font-size:14px;max-width:470px}.hero-img{background:linear-gradient(90deg,#17171555,#17171500),url("https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1400&q=85") center/cover;min-height:350px}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}.outline{border:1px solid var(--gold);padding:12px 17px;font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+.trust{background:var(--gold);display:flex;justify-content:center;gap:45px;flex-wrap:wrap;padding:16px;color:#211d15;font-size:10px;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
+main{max-width:1160px;margin:auto;padding:70px 22px}.intro{text-align:center;max-width:660px;margin:0 auto 32px}.intro .eyebrow{color:var(--red)}h2{font-size:clamp(32px,4vw,44px);margin:10px 0}.intro p{font-size:14px;color:var(--muted);line-height:1.7}
+.filters{display:flex;justify-content:center;gap:8px;flex-wrap:wrap;margin:25px 0 38px}.filters button{background:transparent;border:1px solid #d8cdbb;padding:10px 14px;cursor:pointer;font:700 11px "DM Sans";color:#514b41}.filters button.active,.filters button:hover{background:var(--dark);color:white;border-color:var(--dark)}
+.category{scroll-margin-top:95px;margin:40px 0}.category h3{font-size:26px;display:flex;align-items:center;gap:15px}.category h3:after{content:"";height:1px;background:var(--line);flex:1}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.dish{background:var(--paper);border:1px solid var(--line);padding:17px;display:flex;justify-content:space-between;gap:12px}.dish h4{font-size:14px;margin:0 0 7px}.dish p{font-size:12px;line-height:1.55;color:var(--muted);margin:0}.price{white-space:nowrap;color:var(--red);font-size:14px;font-weight:800}.tag{font:700 9px "DM Sans";color:#76551d;background:#f2e7d1;padding:4px 6px;margin-left:5px}
+.story{background:#22221f;color:white;display:grid;grid-template-columns:1fr 1fr}.storyimg{background:url("https://images.unsplash.com/photo-1529006557810-274b9b2fc783?auto=format&fit=crop&w=1200&q=85") center/cover;min-height:330px}.storycopy{padding:55px;align-self:center}.storycopy h2{font-size:38px}.storycopy p{color:#d0c9bd;font-size:14px;line-height:1.8}
+.contact{background:#eee7da;text-align:center;padding:55px 20px}.contact p{color:var(--muted);line-height:1.8;font-size:14px}footer{background:#111;color:#cfc7b8;text-align:center;padding:26px;font-size:11px}.footbrand{font:700 19px Georgia;color:var(--gold);margin-bottom:7px}
+@media(max-width:740px){.links{display:none}.hero{grid-template-columns:1fr}.hero-img{min-height:230px;grid-row:1}.hero-copy{padding:42px 23px;grid-row:2}.trust{gap:14px;font-size:9px}main{padding:52px 15px}.grid{grid-template-columns:1fr}.story{grid-template-columns:1fr}.storyimg{min-height:220px}.storycopy{padding:35px 24px}}
+</style>
+</head>
+<body>
+<div class="top" id="topline">Istanbul Grill Créteil · Cuisine turque · Viandes halal</div>
+<header><nav class="nav">
+<a class="brand" href="#"><span class="mark">IG</span><span><b>ISTANBUL GRILL</b><small>CRÉTEIL</small></span></a>
+<div class="links"><a href="#accueil">Accueil</a><a href="#carte">Notre carte</a><a href="#restaurant">Notre cuisine</a><a href="#contact">Contact</a></div>
+<a class="goldbtn" href="#carte">Voir la carte</a>
+</nav></header>
+<section class="hero" id="accueil"><div class="hero-copy"><div class="eyebrow">Le goût des grillades turques</div><h1>Un voyage gourmand au cœur de <span>Istanbul.</span></h1><p>Découvrez nos sandwiches, nos assiettes généreuses et nos spécialités turques. Des recettes préparées avec soin, pour un repas plein de saveurs.</p><div class="actions"><a class="goldbtn" href="#carte">Découvrir la carte</a><a class="outline" href="#contact">Nous trouver</a></div></div><div class="hero-img" role="img" aria-label="Grillades"></div></section>
+<div class="trust"><span>✦ Viandes 100 % halal</span><span>✦ Préparé avec soin</span><span>✦ Saveurs turques</span></div>
+<main id="carte"><div class="intro"><div class="eyebrow">À découvrir</div><h2>Notre carte</h2><p>Des sandwiches aux grillades, retrouvez toutes nos spécialités. Tous les prix sont affichés en euros.</p></div>
+<div class="filters" id="filters"></div><div id="menu"></div></main>
+<section class="story" id="restaurant"><div class="storyimg"></div><div class="storycopy"><div class="eyebrow">L'esprit Istanbul Grill</div><h2>La générosité à chaque bouchée.</h2><p>Des recettes inspirées des saveurs turques, des grillades et des assiettes généreuses : chez Istanbul Grill, chaque repas est une invitation à se régaler.</p></div></section>
+<section class="contact" id="contact"><div class="eyebrow">À bientôt</div><h2>Venez nous rendre visite</h2><p><b>Istanbul Grill Créteil</b><br><span id="address">Adresse à compléter</span><br><span id="phone">Téléphone à compléter</span><br><span id="hours">Horaires à compléter</span></p></section>
+<footer><div class="footbrand">ISTANBUL GRILL CRÉTEIL</div>Grillades & spécialités turques · Tous les prix en euros (€)<br><br>© <span id="year"></span> Istanbul Grill Créteil</footer>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="config.js"></script>
+<script>
+const initial = [
+["Sandwiches","Kebab de veau maison","Viande de veau halal préparée maison, servie avec frites, salade, tomates, oignons et sauce.",10,"Populaire"],
+["Sandwiches","Kebab poulet","Viande de poulet halal, servie avec frites, salade, tomates, oignons et sauce.",9.5,"Populaire"],
+["Sandwiches","Brochettes d’agneau","Viande halal préparée maison, servie avec frites, salade, tomates, oignons et sauce.",12],
+["Sandwiches","Steak","Trois steaks de viande hachée de 45 g, servis avec frites et fromage. Viande 100 % halal.",10],
+["Sandwiches","Brochette de poulet","Brochette de poulet halal grillée et marinée aux épices, servie avec frites, salade, tomates, oignons et sauce.",10],
+["Sandwiches","Kefta","Kefta kebab maison à base de viande hachée, épicée et savoureuse, servie avec frites. Viande 100 % halal.",10],
+["Sandwiches","Chicken Chika","Viande de poulet halal, servie avec frites, salade, tomates, oignons et sauce.",10],
+["Sandwiches","Adana","Viande de veau halal préparée maison, servie avec frites, salade, tomates, oignons et sauce.",10],
+["Sandwiches","Merguez","Merguez halal préparées maison, servies avec frites, salade, tomates, oignons et sauce.",10],
+["Assiettes","Grillades mix — assiette","Côtelette d’agneau, kebab, kefta, brochette de poulet, brochette d’agneau et merguez. Servie avec blé, frites et salade. Viandes 100 % halal.",20],
+["Assiettes","Kebab de veau maison — assiette","Kebab de veau halal servi avec frites, blé et salade mixte.",15,"Populaire"],
+["Assiettes","Kebab poulet — assiette","Kebab de poulet halal servi avec frites, blé et salade mixte.",15],
+["Assiettes","Brochette d’agneau — assiette","Deux brochettes d’agneau halal, servies avec frites, blé et salade mixte.",18],
+["Assiettes","Adana — assiette","Deux brochettes Adana à base de viande hachée épicée, servies avec frites, blé et salade mixte. Viande 100 % halal.",15],
+["Assiettes","Kefta — assiette","Quatre pièces de kefta à base de viande hachée épicée, servies avec frites, blé et salade mixte. Viande 100 % halal.",15],
+["Assiettes","Côtelettes — assiette","Deux côtelettes d’agneau halal, servies avec frites, blé et salade mixte.",18],
+["Assiettes","Brochette de poulet — assiette","Deux brochettes de poulet halal, servies avec frites, blé et salade mixte.",15],
+["Assiettes","Steak — assiette","Deux steaks de viande hachée (100 g au total), servis avec frites, blé et salade mixte. Viande 100 % halal.",15],
+["Lahmacun","Lahmacun avec viande kebab","Viande de veau halal préparée maison, servie avec salade, tomates, oignons et sauce.",10,"Populaire"],
+["Lahmacun","Lahmacun seul","Pizza turque à la viande, préparée avec de la viande de veau halal.",5.5,"Populaire"],
+["Burgers, paninis & tacos","Tacos","Tacos généreux avec 1, 2 ou 3 viandes au choix, des frites et une sauce fromagère fondante. Viandes 100 % halal.",10.5],
+["Burgers, paninis & tacos","Panini","Pain grillé, fromage fondant et viande au choix. Servi avec des frites. Viande 100 % halal.",8],
+["Burgers, paninis & tacos","Cheeseburger","Steak haché, cheddar fondant, salade et sauce, servi avec des frites. Viande 100 % halal.",8],
+["Desserts","Tiramisu","Une touche gourmande pour terminer votre repas.",4.5],
+["Boissons","Coca-Cola — 33 cl","",2.5],["Boissons","Coca-Cola Zero — 33 cl","",2.5],["Boissons","Coca-Cola Cherry — 33 cl","",2.5],["Boissons","Fanta Orange — 33 cl","",2.5],["Boissons","Oasis Tropical — 33 cl","",2.5],["Boissons","Orangina — 33 cl","",2.5],["Boissons","Red Bull — 25 cl","",3.9],["Boissons","Sprite — 33 cl","",2.5]
+].map((x,i)=>({id:"local-"+i,category:x[0],name:x[1],description:x[2],price:x[3],popular:x[4]==="Populaire",available:true}));
+const cats=["Sandwiches","Assiettes","Lahmacun","Burgers, paninis & tacos","Desserts","Boissons"];
+const cfg=window.IG_CONFIG||{}; let client=null;
+if(cfg.supabaseUrl&&cfg.supabaseAnonKey&&!cfg.supabaseUrl.includes("VOTRE")) client=window.supabase.createClient(cfg.supabaseUrl,cfg.supabaseAnonKey);
+function money(n){return Number(n).toLocaleString("fr-FR",{style:"currency",currency:"EUR"});}
+function draw(items){
+ const visible=items.filter(x=>x.available!==false);
+ const target=document.getElementById("menu");target.innerHTML="";
+ const categories=[...new Set([...cats,...visible.map(x=>x.category)])];
+ document.getElementById("filters").innerHTML=categories.map((c,i)=>`<button class="${i===0?"active":""}" data-cat="${c}">${c}</button>`).join("");
+ categories.forEach(cat=>{
+  const group=visible.filter(x=>x.category===cat);if(!group.length)return;
+  const section=document.createElement("section");section.className="category";section.id="cat-"+cat.toLowerCase().replaceAll(/[^a-z0-9]+/g,"-");
+  section.innerHTML=`<h3>${cat}</h3><div class="grid">${group.map(x=>`<article class="dish"><div><h4>${esc(x.name)}${x.popular?'<span class="tag">Populaire</span>':""}</h4><p>${esc(x.description||"")}</p></div><span class="price">${money(x.price)}</span></article>`).join("")}</div>`;
+  target.appendChild(section);
+ });
+ document.querySelectorAll(".filters button").forEach(b=>b.onclick=()=>{document.querySelectorAll(".filters button").forEach(x=>x.classList.remove("active"));b.classList.add("active");document.getElementById("cat-"+b.dataset.cat.toLowerCase().replaceAll(/[^a-z0-9]+/g,"-"))?.scrollIntoView({behavior:"smooth",block:"start"});});
+}
+function esc(s){return String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
+async function start(){
+ let items=initial;
+ if(client){const {data,error}=await client.from("menu_items").select("*").eq("available",true).order("sort_order");if(!error&&data?.length)items=data;}
+ draw(items);
+ if(client){const {data}=await client.from("site_settings").select("*");(data||[]).forEach(x=>{if(x.key==="address")document.getElementById("address").textContent=x.value;if(x.key==="phone")document.getElementById("phone").textContent=x.value;if(x.key==="hours")document.getElementById("hours").textContent=x.value;});}
+}
+document.getElementById("year").textContent=new Date().getFullYear();start();
+</script>
+</body></html>
